@@ -1,0 +1,63 @@
+@font-face{
+	src:url(fonts/anurati.otf);
+	font-family: anurati;
+}
+
+#header{
+	background-image: url(images/13995.jpg);
+	height: 200px;
+	background-size: auto;
+	background-repeat: none;
+	background-position: center;
+}
+nav{
+	position: fixed;
+	height: 28px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+}
+h1{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	width: 100%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	padding: 10px 0px;
+	text-align: center;
+}
+.footer{
+	background-image: url(images/13995.jpg);
+	height: 100px;
+
+}
+.main{
+	height: 600px;
+	background-image: url(images/ac.jpg);
+	background-position: center;
+}
+a{
+	text-decoration: none;
+}
+.list,.list1{
+	margin-left: 50px;
+}
+.home1{
+	color: white;
+}
+.contact1{
+	color: white;
+	float: right;
+}
+.menu{
+	margin-left:20px;
+}
+.menu a{
+	margin: 5px;
+	color: white;
+	float: left;
+}
+.menu a:hover{
+	color:red;
+}
