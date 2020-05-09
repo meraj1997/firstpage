@@ -3,12 +3,18 @@
 	font-family: anurati;
 }
 
+.wrapper{
+	width: 100%;
+	margin: 0px auto;
+	font-family: anurati;
+	color: rgba(255,255,255,1);
+	background-color: black;
+}
 #header{
 	background-image: url(images/13995.jpg);
 	height: 200px;
-	background-size: auto;
-	background-repeat: none;
 	background-position: center;
+	background-repeat: repeat-y;
 }
 nav{
 	position: fixed;
@@ -18,37 +24,36 @@ nav{
 }
 h1{
 	background-color: rgba(0,0,0,0.5);
-	position: absolute;
-	top: 10%;
+	position: relative;
+	top: 31.5%;
 	left: 50%;
-	width: 100%;
 	transform: translate(-50%, -50%);
 	font-size: 50px;
 	padding: 10px 0px;
 	text-align: center;
+	transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
 .footer{
 	background-image: url(images/13995.jpg);
 	height: 100px;
+	background-position: center bottom;
+	background-repeat: repeat-y;
 
 }
 .main{
 	height: 600px;
 	background-image: url(images/ac.jpg);
 	background-position: center;
+	background-repeat: repeat-y;
 }
 a{
 	text-decoration: none;
 }
-.list,.list1{
+.list,.list1,#contact{
 	margin-left: 50px;
-}
-.home1{
-	color: white;
-}
-.contact1{
-	color: white;
-	float: right;
 }
 .menu{
 	margin-left:20px;
@@ -57,7 +62,15 @@ a{
 	margin: 5px;
 	color: white;
 	float: left;
+	transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
 .menu a:hover{
 	color:red;
+}
+#contact a{
+	color: white;
+	line-height: 23px;
 }
